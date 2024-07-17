@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ed5e05;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.header-infor{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+}
+
+.header-infor a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav1{
+    margin-left: 70%;
+}
+.find{
+    float: right;
+}
+
+header h1{
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1140px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    clear: both;
+    display: flex;
+}
+.article {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.article p {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+.manage-atten{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.manage-atten ul{
+    text-decoration: none;
+}
+.manage-nav ul{
+    justify-content: space-around;
+    margin: 100px;
+}
+.manage-nav ul li a{
+    color: black;
+}
+.article a {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+.thumb_art{
+    float:left;
+    margin-right: 20px;
+}
+.title-image{
+    width: 300px;
+    height: 200px;
+}
+.detail-image{
+    width: 650px;
+    height: 450px;
+}
+.table_detail {
+    text-decoration: none;
+}
+.art_item{
+    margin-bottom: 50px;
+    width: 1000px;
+}
+.title-news a{
+    text-decoration: none;
+    color: black;
+}
+.tag_Favor{
+    margin-top: 85px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+.footer-div{
+    margin: 0px 10px;
+    text-align: center;
+}
+.footer-div a img{
+    padding: 15px 10px;
+}
+.foot p{
+    color: white;
+    text-align: center;
+}
+.product{
+    padding: 15px 10px;
+    margin: 0px;
+}
+.header-detail{
+    border-top: 1px black;
+    background-color: #ece6e6;
+    padding: 20px 40px;
+    width: 60%;
+}
+.sidebar{
+    width: 40%;
+    padding-left: 40px;
+}
+.part-content{
+    background-color: #ffba8e;
+    padding: 10px;
+}
+.part-content h2{
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.part hr{
+    color: black;
+}
+.comment_side h2{
+    margin: 30px 0px;
+}
+.comment_side div{
+    margin-top: 50px; 
+}
+.error-atten{
+    display: flex;
+    justify-content: center
+}
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+    font-size: 15px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+    text-align: center;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+.form-group{
+    margin: 15px;
+}
+.form-group button{
+    background-color: #0069d9;
+    color: white;
+    margin-left: 38%;
+}
+.form-group input{
+    font-size: 20px;
+}
+
+.post-truncate {
+    width: 605px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
